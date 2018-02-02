@@ -11,6 +11,10 @@
   "license": "MIT",
   "main": "./lib/wdio-errorshot-reporter.js",
   "name": "wdio-errorshot-reporter",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JulianVallee/wdio-errorshot-reporter.git"
+  },
   "scripts": {
     "build": "echo Nothing here yet!",
     "eslint": "run-s eslint:*",

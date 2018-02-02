@@ -1,0 +1,33 @@
+{
+  "author": "Julian Vallée <julian@vallee-design.de>",
+  "description": "A WebdriverIO plugin to take control over the name of error screenshots.",
+  "dependencies": {},
+  "devDependencies": {
+    "copyfiles": "^1.2.0",
+    "eslint": "^4.16.0",
+    "np": "^2.18.3",
+    "npm-run-all": "^4.1.2"
+  },
+  "license": "MIT",
+  "main": "./lib/wdio-errorshot-reporter.js",
+  "name": "wdio-errorshot-reporter",
+  "scripts": {
+    "build": "echo Nothing here yet!",
+    "eslint": "run-s eslint:*",
+    "eslint:core": "eslint ./lib/wdio-errorshot-reporter.js",
+    "eslint:helpers": "eslint ./lib/helpers/**/*.js",
+    "release": "np patch",
+    "release:patch": "np patch",
+    "release:minor": "np minor",
+    "release:major": "np major"
+  },
+  "tags": [
+    "errorshot",
+    "reporter",
+    "webdriverio",
+    "wdio",
+    "wdio-plugin",
+    "wdio-reporter"
+  ],
+  "version": "0.0.4"
+}

@@ -54,7 +54,7 @@ module.exports = {
   // ...
   reporterOptions: {
       errorshotReporter: {
-          name: '%capId%_%timestamp%_%parent%-%title%'
+          template: '%capId%_%timestamp%_%parent%-%title%'
       }
   },
   // ...

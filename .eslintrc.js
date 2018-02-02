@@ -1,7 +1,8 @@
 module.exports = {
     "env": {
         "es6": true,
-        "node": true
+        "node": true,
+        "mocha": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
@@ -16,13 +17,12 @@ module.exports = {
             "error",
             "windows"
         ],
-        "quotes": [
-            "error",
-            "single"
-        ],
         "semi": [
             "error",
             "always"
+        ],
+        "no-unused-vars": [
+            "off"
         ]
     }
 };

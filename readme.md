@@ -5,17 +5,7 @@ WDIO Errorshot Reporter
 
 ## Installation
 
-The easiest way is to keep `wdio-errorshot-reporter` as a devDependency in your `package.json`.
-
-```json
-{
-  "devDependencies": {
-    "wdio-errorshot-reporter": "~0.0.4"
-  }
-}
-```
-
-You can simple do it by:
+Add the reporter to your dev dependencies:
 
 ```bash
 npm install wdio-errorshot-reporter --save-dev
